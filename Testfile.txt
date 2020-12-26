@@ -1,1 +1,3 @@
 created for testing testfile.txt
+Automation testing is not tat easy
+preparation going on
