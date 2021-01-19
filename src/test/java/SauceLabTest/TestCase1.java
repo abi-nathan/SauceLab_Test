@@ -52,6 +52,7 @@ public class TestCase1 {
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		Assert.assertEquals(driver.getTitle(), "OrangeHRM");
 		
+		//finding the elements
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 		driver.findElement(By.id("btnLogin")).click();
